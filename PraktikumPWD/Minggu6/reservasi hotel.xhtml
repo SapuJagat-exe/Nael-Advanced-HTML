@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Reservation Hotel Room</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Reservation Hotel Room</h1>
+
+    <form action="#" method="post">
+      <fieldset class="box">
+        <legend>Personal Data</legend>
+
+        <label>1. Name</label>
+        <input type="text" name="name" size="40" />
+
+        <label>2. Gender</label>
+        <input type="text" name="gender" size="40" />
+
+        <label>3. Email Address</label>
+        <input type="email" name="email" size="40" />
+
+        <label>4. Telp Number</label>
+        <input type="tel" name="phone" size="40" />
+      </fieldset>
+
+      <fieldset class="box">
+        <legend>Reservation Room Form</legend>
+
+        <label>1. Reservator Name</label>
+        <input type="text" name="reservator" size="40" />
+
+        <label>2. Booking Date</label>
+        <input type="date" name="book_date" size="40" />
+
+        <label>3. Room Type</label>
+        <select name="room_type">
+          <option>Deluxe</option>
+          <option>Superior</option>
+          <option>Standard</option>
+        </select>
+
+        <label>4. Bed Type</label>
+        <select name="bed_type">
+          <option>Single bed</option>
+          <option>Double bed</option>
+          <option>Queen bed</option>
+        </select>
+
+        <label>5. Breakfast</label>
+        <div class="radio-group">
+          <label><input type="radio" name="breakfast" value="with" checked="checked" /> With Breakfast</label>
+          <label><input type="radio" name="breakfast" value="without" /> Without Breakfast</label>
+        </div>
+      </fieldset>
+
+      <fieldset class="box">
+        <legend>Payment</legend>
+
+        <label>1. Check-in Date</label>
+        <input type="date" name="checkin" size="40" />
+
+        <label>2. Check-out Date</label>
+        <input type="date" name="checkout" size="40" />
+
+        <label>3. Payment Method</label>
+        <select name="payment">
+          <option value="cash">Cash</option>
+          <option value="credit">Credit Card</option>
+          <option value="bank">Bank Transfer</option>
+        </select>
+      </fieldset>
+
+      <input type="submit" value="Submit" class="submit-btn" />
+    </form>
+  </div>
+</body>
+</html>
