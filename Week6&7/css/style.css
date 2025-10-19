@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background: linear-gradient(to bottom right, #004d7a, #0096c7, #90e0ef);
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+form {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: 1px solid #80bfff;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    color: #004d7a;
+    padding: 0 8px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+label {
+    font-weight: 600;
+    color: #333333;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #66b3ff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #339cff;
+}
+
+a {
+    color: #004d7a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #007acc;
+    text-decoration: underline;
+}
